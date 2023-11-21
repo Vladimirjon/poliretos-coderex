@@ -3,19 +3,37 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner reader = new Scanner(System.in);
+        System.out.println();
+        System.out.println("                ***********");
+        System.out.println("              ******** # **");
+        System.out.println("              **************");
+        System.out.println("                      ######");
+        System.out.println("                ############");
+        System.out.println("                      *******");
+        System.out.println("                      ********                   *");
+        System.out.println("                 **************                  **");
+        System.out.println("                ***¯¯¯***********              ****");
+        System.out.println("                      ************           *****");
+        System.out.println("                      ***************************");
+        System.out.println("                       ****** /###   ###  ******");
+        System.out.println("                        ***** #      #  # ****");
+        System.out.println("                          *** #      #  # ***");
+        System.out.println("                           **  ###   ###/ **");
+        System.out.println("                            ***************");
+        System.out.println("                             ****      ****");
+        System.out.println("                             ****      ****");
+        System.out.println("                           *****     *****");
+        System.out.println("");
+        System.out.println("                          ###   ####  #    #");
+        System.out.println("                          #  #  #      #  #");
+        System.out.println("                          ###/  ###     ##");
+        System.out.println("                          #  #  #      #  #");
+        System.out.println("                          #  #  ####  #    #");
+        System.out.println();
+        System.out.println("        * Lopez.Elizabeth   * Morales.David  * Pallares.Jose\n               * Paredes.Leon   * Pasquel.Johann\n");
+        
         System.out.println("Ingrese el numero de elementos");
         int nPosiciones = reader.nextInt();
-
-        System.out.println("***************************");
-        System.out.println("*         CodeRex         *");
-        System.out.println("***************************");
-        System.out.println("* Lopez.Elizabeth         *");
-        System.out.println("* Morales.David           *");
-        System.out.println("* Pallares.Jose           *");
-        System.out.println("* Paredes.Leon            *");
-        System.out.println("* Pasquel.Johann          *");
-        System.out.println("***************************");
-
         SerieCeroImpar oCeroImpar = new SerieCeroImpar();
         System.out.print("\nSerie 1 - 0... for: ");
         oCeroImpar.ImparesCeroFor(nPosiciones);
